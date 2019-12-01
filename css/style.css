@@ -1,3 +1,68 @@
+#welcome-section{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #000;
+}
+
+#projects{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: blue;
+}
+
+#projects a{
+  font-size: 60px;
+  text-transform: uppercase;
+  color: white;
+
+}
+
+#contact{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: gray;
+}
+
+#contact a{
+  font-size: 60px;
+  text-transform: uppercase;
+  color: white;
+
+}
+
+#welcome-section h1{
+  color: white;
+}
+
+#navbar{
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  background: #da3c3c;
+  height: 50px;
+  padding: 0px;
+  margin: 0px;
+  text-align: right;
+}
+#navbar a{
+  font-size: 31px;
+  margin-right: 50px;
+  text-transform: uppercase;
+  color: white;
+}
+
 @media screen and (max-width: 992px) {
   body {
     background-color: blue;
